@@ -1,0 +1,10 @@
+# ninja log v6
+12	862	7525957189902340	FEU_Tester_COM_Port_autogen/timestamp	3df5bfe1c67e7a15
+12	862	7525957189902340	FEU_Tester_COM_Port_autogen/mocs_compilation.cpp	3df5bfe1c67e7a15
+12	862	7525957189902340	C:/Users/IRIAF-Jahad/Desktop/FEU_Tester_COM_Port/FEU_Tester_COM_Port/build/Desktop_x86_windows_msys_pe_64bit-Debug/FEU_Tester_COM_Port_autogen/timestamp	3df5bfe1c67e7a15
+12	862	7525957189902340	C:/Users/IRIAF-Jahad/Desktop/FEU_Tester_COM_Port/FEU_Tester_COM_Port/build/Desktop_x86_windows_msys_pe_64bit-Debug/FEU_Tester_COM_Port_autogen/mocs_compilation.cpp	3df5bfe1c67e7a15
+880	4385	7525957191123254	CMakeFiles/FEU_Tester_COM_Port.dir/Serial_Port.cpp.obj	3989ef9c83d099ac
+869	5659	7525957191053204	CMakeFiles/FEU_Tester_COM_Port.dir/FEU_Tester_COM_Port_autogen/mocs_compilation.cpp.obj	1f35905178d7b1cc
+872	5720	7525957191123254	CMakeFiles/FEU_Tester_COM_Port.dir/main.cpp.obj	9120a6ab96ab88b1
+876	6014	7525957191123254	CMakeFiles/FEU_Tester_COM_Port.dir/mainwindow.cpp.obj	4e195970f1c48c81
+6014	6431	7525957242572976	FEU_Tester_COM_Port.exe	af4c3e8ac1f6269b

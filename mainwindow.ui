@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>798</width>
+    <height>352</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="Port_Settings_Group_Obj">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>201</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Port Settings</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>36</y>
+       <width>53</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>COM:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>73</y>
+       <width>53</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Baud rate:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>111</y>
+       <width>53</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Data bits:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>150</y>
+       <width>53</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Stop bit:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>189</y>
+       <width>53</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Parity bit:</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="COMComboBox_Obj">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>40</y>
+       <width>72</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QComboBox::AdjustToContentsOnFirstShow</enum>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="BaudComboBox_Obj">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>78</y>
+       <width>72</width>
+       <height>24</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="DataComboBox_Obj">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>116</y>
+       <width>72</width>
+       <height>24</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="StopComboBox_Obj">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>155</y>
+       <width>72</width>
+       <height>24</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="ParityComboBox_Obj">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>194</y>
+       <width>72</width>
+       <height>24</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ConnectButton_Obj">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>240</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Connect</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="DisconnectButton_Obj">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>240</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Disconnect</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PortRefreshButton_Obj">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>40</y>
+       <width>21</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>R</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="Commands_Group_Obj">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>10</y>
+      <width>551</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Commands</string>
+    </property>
+    <widget class="QPushButton" name="PowerOffButton_Obj">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Power OFF</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="PowerOnButton_Obj">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>70</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Power ON</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="RX1OffButton_Obj">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>30</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>RX1 OFF</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="RX2OffButton_Obj">
+     <property name="geometry">
+      <rect>
+       <x>140</x>
+       <y>70</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>RX2 OFF</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="RX2OnButton_Obj">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>70</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>RX2 ON</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="RX1OnButton_Obj">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>30</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>RX1 ON</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Filter3Button_Obj">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>70</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Filter 3</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Filter1Button_Obj">
+     <property name="geometry">
+      <rect>
+       <x>350</x>
+       <y>30</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Filter 1</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Filter4Button_Obj">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>70</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Filter 4</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Filter2Button_Obj">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>30</y>
+       <width>80</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Filter 2</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Att1StepUpButton_Obj">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>120</y>
+       <width>91</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Att1 Step Up</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Att1StepDownButton_Obj">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>180</y>
+       <width>91</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Att1 Step Down</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Att2StepDownButton_Obj">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>180</y>
+       <width>91</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Att2 Step Down</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Att2StepUpButton_Obj">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>120</y>
+       <width>91</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Att2 Step Up</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Atten1Edit_Obj">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>150</y>
+       <width>71</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="Atten2Edit_Obj">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>150</y>
+       <width>71</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="clearButtonEnabled">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="CommandsTextBrowser_Obj">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>110</y>
+       <width>261</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QAbstractScrollArea::AdjustIgnored</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_2">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>30</y>
+       <width>3</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>30</y>
+       <width>3</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+    <widget class="Line" name="line_3">
+     <property name="geometry">
+      <rect>
+       <x>347</x>
+       <y>100</y>
+       <width>171</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>798</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

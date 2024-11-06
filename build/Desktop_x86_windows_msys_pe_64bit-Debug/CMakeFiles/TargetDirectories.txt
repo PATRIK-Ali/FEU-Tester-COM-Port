@@ -1,0 +1,9 @@
+C:/Users/IRIAF-Jahad/Desktop/FEU_Tester_COM_Port/FEU_Tester_COM_Port/build/Desktop_x86_windows_msys_pe_64bit-Debug/CMakeFiles/FEU_Tester_COM_Port.dir
+C:/Users/IRIAF-Jahad/Desktop/FEU_Tester_COM_Port/FEU_Tester_COM_Port/build/Desktop_x86_windows_msys_pe_64bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/IRIAF-Jahad/Desktop/FEU_Tester_COM_Port/FEU_Tester_COM_Port/build/Desktop_x86_windows_msys_pe_64bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/IRIAF-Jahad/Desktop/FEU_Tester_COM_Port/FEU_Tester_COM_Port/build/Desktop_x86_windows_msys_pe_64bit-Debug/CMakeFiles/list_install_components.dir
+C:/Users/IRIAF-Jahad/Desktop/FEU_Tester_COM_Port/FEU_Tester_COM_Port/build/Desktop_x86_windows_msys_pe_64bit-Debug/CMakeFiles/install.dir
+C:/Users/IRIAF-Jahad/Desktop/FEU_Tester_COM_Port/FEU_Tester_COM_Port/build/Desktop_x86_windows_msys_pe_64bit-Debug/CMakeFiles/install/local.dir
+C:/Users/IRIAF-Jahad/Desktop/FEU_Tester_COM_Port/FEU_Tester_COM_Port/build/Desktop_x86_windows_msys_pe_64bit-Debug/CMakeFiles/install/strip.dir
+C:/Users/IRIAF-Jahad/Desktop/FEU_Tester_COM_Port/FEU_Tester_COM_Port/build/Desktop_x86_windows_msys_pe_64bit-Debug/CMakeFiles/FEU_Tester_COM_Port_autogen_timestamp_deps.dir
+C:/Users/IRIAF-Jahad/Desktop/FEU_Tester_COM_Port/FEU_Tester_COM_Port/build/Desktop_x86_windows_msys_pe_64bit-Debug/CMakeFiles/FEU_Tester_COM_Port_autogen.dir
